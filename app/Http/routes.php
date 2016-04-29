@@ -11,8 +11,10 @@
 |
 */
 
+//Static Pages Routes
 Route::get('/', 'PagesController@getIndex');
-
 Route::get('about', 'PagesController@getAbout');
-
 Route::get('contact', 'PagesController@getContact');
+
+//Blog Post Route
+Route::resource('post', 'PostController' );
