@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Post;
+// Allows you to use the session class, without this you will get an error
+use Session;
 
 class PostController extends Controller
 {
@@ -50,6 +52,9 @@ class PostController extends Controller
         $post->body = $request->body;
         $post->save();
 
+        // flash makes the message temporary, only here for one session
+        Session::flash('success', 'The blog post has been created');
+
         return redirect()->route('post.show', $post->id);
     }
 
@@ -61,7 +66,7 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('posts.show');
     }
 
     /**
