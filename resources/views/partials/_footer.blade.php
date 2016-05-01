@@ -1,6 +1,9 @@
-    <hr>
-    <p class="footer-info">Copyright 2016</p>
-
+    <div class="row">
+    <div class="col-md-12">
+    	<hr>
+    	<p class="footer-info">Copyright 2016</p>
+    </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
