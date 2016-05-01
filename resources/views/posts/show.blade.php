@@ -32,6 +32,11 @@
 						{!! Form::close() !!}
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-md-12">
+						{!! Html::linkRoute('post.index', 'All Posts', [], array('class' => 'btn btn-info btn-block show-btn')) !!}
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
