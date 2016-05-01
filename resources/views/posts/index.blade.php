@@ -22,7 +22,8 @@
 					<th>#</th>
 					<th>Title</th>
 					<th>Body</th>
-					<th>Created At</th>
+					<th>Created</th>
+					<th></th>
 					<th></th>
 				</thead>
 				<tbody>
@@ -30,13 +31,17 @@
 					<tr>
 						<th>{{ $post->id }}</th>
 						<td>{{ $post->title }}</td>
-						<td>{{ substr($post->body, 0, 120) }}{{ strlen($post->body) > 50 ? "..." : "" }}</td>
+						<td>{{ substr($post->body, 0, 50) }}{{ strlen($post->body) > 50 ? "..." : "" }}</td>
 						<td>{{ date('j M Y', strtotime($post->created_at)) }}</td>
-						<td><a href="{{ route('post.show', $post->id) }}" class="btn btn-default">View</a> <a href="{{ route('post.edit', $post->id) }}" class="btn btn-success">Edit</a></td>
+						<td><a href="{{ route('post.show', $post->id) }}" class="btn btn-default">View</a></td>
+						<td><a href="{{ route('post.edit', $post->id) }}" class="btn btn-success">Edit</a></td> 
 					</tr>
 					@endforeach
 				</tbody>
 			</table>
+			<div class="text-center">
+				{!! $posts->links(); !!}
+			</div>
 		</div>
 	</div>
 @endsection
