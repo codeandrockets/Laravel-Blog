@@ -20,6 +20,11 @@ Route::get('blog/{slug}', ['as' => 'blog.single', 'uses' => 'BlogController@getS
 //Blog Post Route
 Route::resource('post', 'PostController' );
 Route::get('blog', ['uses' =>'BlogController@getIndex', 'as' => 'blog.index']);
+
+//Product Route
+Route::resource('product', 'ProductController');
+
+//Auth Route
 Route::auth();
 
 
