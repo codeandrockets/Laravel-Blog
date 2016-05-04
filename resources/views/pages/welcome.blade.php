@@ -3,12 +3,13 @@
 @section('title', 'Home')
 
 @section('content')
-<div class="row">
-    <div class="col-md-12">
-        <p>Image Slider will go here</p>
-    </div>
-</div>
-<div class="row">
+
+<video id="bgvid" autoplay loop>
+      <source src="video/v.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+</video>
+
+<div class="row" id="content-start">
     <div class="col-md-8">
         @foreach($posts as $post)
         <div class="post">
