@@ -1,3 +1,4 @@
+<div class="container">
 <nav class="navbar">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -8,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Life Hackr</a>
+      <img id="logo" src="img/logo.png" alt="src">
     </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->

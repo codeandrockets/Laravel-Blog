@@ -1,23 +1,13 @@
-/******************** Video styling  **********************/
+/******************** Nav styling  **********************/
 
-video, #bgvid {
-    position: absolute;
-    z-index: 0;
-    background: url(mel.jpg) no-repeat;
-    background-size: 100% 100%;
-    top: 0px;
-    left: 0px; /* fixed to left. Replace it by right if you want.*/
-    max-width: 100%;
-/*    width: auto;
-    height: auto;*/
+#navbar {
+    
+    margin-top: 15px;
 }
 
-#content-start {
-	margin-top: 70%;
-}
+#logo {
+    height: 5em;
 
-nav {
-	z-index: 1;
 }
 
 /******************** Index styling  **********************/
