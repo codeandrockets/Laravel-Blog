@@ -9,7 +9,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img id="logo" src="img/logo.png" alt="src">
+      <img id="logo" {{ HTML::image('img/logo.png')}}
+
     </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
