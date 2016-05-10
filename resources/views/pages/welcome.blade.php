@@ -3,7 +3,27 @@
 @section('title', 'Home')
 
 @section('content')
+<div class="flex-container">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <a href="#"><img src="img/slide1.jpg" /></a>
+            </li>
+            
+            <li>
+                <img src="img/slide2.jpg" />
+            </li>
+            
+            <li>
+                <img src="img/slide3.jpg" />
+            </li>
+        </ul>
+    </div>
+</div>
 
+<script>
+
+</script>
 <div class="row">
     <div class="col-md-8">
         @foreach($posts as $post)
