@@ -8,15 +8,15 @@
     <div class="flexslider">
         <ul class="slides">
             <li>
-                <img src="img/slide1.jpg" />
+                <a href="/blog/burnbellyfat"><img src="img/slide1.jpg" /></a>
             </li>
             
             <li>
-                <img src="img/slide2.jpg" />
+                <a href="/blog/smoothie"><img src="img/slide2.jpg" /></a>
             </li>
             
             <li>
-                <img src="img/slide3.jpg" />
+                <a href="/blog/transcendental"><img src="img/slide3.jpg" /></a>
             </li>
         </ul>
     </div>
@@ -27,7 +27,7 @@
         <div class="post">
             <h3>{{ $post->title }}</h3>
             <p>{{ substr($post->body, 0, 250) }}{{ strlen($post->body) > 300 ? "..." : "" }}</p>
-            <a href="{{ url('blog/'.$post->slug) }}" class="btn btn-primary">Read More</a>
+            <a href="{{ url('blog/'.$post->slug) }}" class="btn btn-primary read-more">Read More</a>
         </div><hr>
         @endforeach
     </div>

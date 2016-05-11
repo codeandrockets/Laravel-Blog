@@ -32,7 +32,7 @@
         </li>
         @else
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ url('/login') }}">Login</a></li>
+          <li class="login"><a href="{{ url('/login') }}">Login</a></li>
         </ul>  
         @endif
       </ul>

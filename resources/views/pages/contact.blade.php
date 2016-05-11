@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 contact-section">
         <h1>Contact Us</h1>
         <hr>
         <form>
