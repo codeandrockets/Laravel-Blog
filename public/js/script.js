@@ -4,3 +4,7 @@ $(document).ready(function () {
         controlsContainer: '.flexslider'
     });
 });
+
+$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});

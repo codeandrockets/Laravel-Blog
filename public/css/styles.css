@@ -6,6 +6,8 @@ body {
 
 h1, h2, h3, h4, h5, h6, a {
     font-family: 'Josefin Sans', sans-serif;
+    color: #3f3f3f;
+    
 }
 
 p {
@@ -15,8 +17,8 @@ p {
 /******************** Nav styling  **********************/
 
 .nav a {
-    color: black;
     margin-top: 30px;
+    background-color: none;
 }
 
 .dropdown li {
@@ -42,12 +44,25 @@ p {
 
 .navbar-default {
     border: none;
+    background-color: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #3f3f3f;
+}
+
+.active {
+    background-color: none;
 }
 
 /******************** Index styling  **********************/
 
 .btn-spacing {
 	margin-top: 30px;
+}
+
+.btn-primary {
+    
 }
 
 /******************** Show Page styling  **********************/
@@ -70,10 +85,52 @@ p {
 
 .footer-info {
 	text-align: center;
+    color: #ccc;
 }
 
 #footer {
     background-color: #000;
     height: 200px;
+    margin-top: 30px;
 }
+
+.social-icon {
+    height: 50px;
+
+}
+
+.social-group {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#footerlinks li{
+    list-style: none;
+    color: #ccc;
+    font-size: 18px;
+    float: left;
+    margin: 15px 4px 0 0;
+}
+
+#footerlinks a{
+    color: #bbb;
+    margin-right: 4px;
+}
+
+
+.form-footer {
+    margin-top: 20px;
+}
+
+.btn-footer {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
 
