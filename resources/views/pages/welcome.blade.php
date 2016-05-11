@@ -3,11 +3,12 @@
 @section('title', 'Home')
 
 @section('content')
+
 <div class="flex-container">
     <div class="flexslider">
         <ul class="slides">
             <li>
-                <a href="#"><img src="img/slide1.jpg" /></a>
+                <img src="img/slide1.jpg" />
             </li>
             
             <li>
@@ -20,10 +21,6 @@
         </ul>
     </div>
 </div>
-
-<script>
-
-</script>
 <div class="row">
     <div class="col-md-8">
         @foreach($posts as $post)
@@ -35,7 +32,7 @@
         @endforeach
     </div>
     <div class="col-md-3 col-md-offset-1">
-        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+        <div class="fb-page" data-href="https://www.facebook.com/healthmag" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/healthmag"><a href="https://www.facebook.com/healthmag">Vitahealth</a></blockquote></div></div>
     </div>
 </div>
 @endsection

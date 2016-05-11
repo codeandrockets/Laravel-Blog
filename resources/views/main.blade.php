@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
 @include('partials._head')
   
   </head>
@@ -28,7 +27,11 @@
 
     </div>
 
-    @include('partials._footer')
 
+
+    @include('partials._footer')
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

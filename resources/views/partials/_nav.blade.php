@@ -1,5 +1,5 @@
 <div class="container">
-<nav class="navbar">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img id="logo" {{ HTML::image('img/logo.png')}}
+      <a href="."><img id="logo" {{ HTML::image('img/logo.png')}}</a>
 
     </div>
     
@@ -35,7 +35,6 @@
           <li><a href="{{ url('/login') }}">Login</a></li>
         </ul>  
         @endif
-
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
