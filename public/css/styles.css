@@ -110,6 +110,12 @@ p {
 	margin-bottom: 10px;
 }
 
+/******************** Create Page  **********************/
+
+.create-form {
+    margin-bottom: 20px;
+}
+
 /******************** Footer styling  **********************/
 
 .footer-info {
@@ -168,6 +174,8 @@ p {
         height: 300px;
     }
 }
+
+
 
 
 

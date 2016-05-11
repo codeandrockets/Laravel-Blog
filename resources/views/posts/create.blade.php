@@ -17,13 +17,13 @@
 			{!! Form::open(array('route' => 'post.store', 'data-parsley-validate' => '')) !!}
 			    {{ Form::label('title', 'Title:') }}
 			    <!-- null is value of inner text, class is the css class -->
-			    {{ Form::text('title', null, array('class' => 'form-control', 'required' => '', 'maxlength' => '255')) }}
+			    {{ Form::text('title', null, array('class' => 'form-control create-form', 'required' => '', 'maxlength' => '255')) }}
 
 			    {{ Form::label('slug', 'Slug:') }}
-			    {{ Form::text('slug', null, array('class' => 'form-control', 'required' => '', 'minlength' => '5', 'maxlength' => '255')) }}
+			    {{ Form::text('slug', null, array('class' => 'form-control create-form', 'required' => '', 'minlength' => '5', 'maxlength' => '255')) }}
 
 			    {{ Form::label('body', 'Body:') }}
-			    {{ Form::textarea('body', null, array('class' => 'form-control', 'required' => '')) }}
+			    {{ Form::textarea('body', null, array('class' => 'form-control create-form', 'required' => '')) }}
 
 			    {{ Form::submit('Create Post', array('class' => 'btn btn-success')) }}
 			{!! Form::close() !!}
